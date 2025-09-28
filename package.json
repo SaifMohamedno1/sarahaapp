@@ -1,0 +1,24 @@
+{
+  "name": "sarahaapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Src/index.js",
+    "dev": "nodemon Src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "mongose": "^0.0.2-security",
+    "nanoid": "^5.1.6",
+    "nodemailer": "^7.0.6"
+  }
+}
